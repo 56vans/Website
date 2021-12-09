@@ -508,6 +508,7 @@ background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, F
 }
 
 .projects_card h2 {
+    text-decoration: none;
     text-align: center;
 }
 
@@ -515,6 +516,7 @@ background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, F
     text-align: center;
     margin-top: 24px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .projects_btn {
