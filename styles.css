@@ -524,6 +524,7 @@ background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, F
     justify-content: center;
     margin-top: 16px;
     text-decoration: none;
+    text-decoration-line: none;
 }
 
 .projects_card button {
