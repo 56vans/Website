@@ -523,6 +523,7 @@ background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, F
 
 .projects_btn button a {
     text-decoration: none;
+    color: white;
     outline: none;
 }
 
