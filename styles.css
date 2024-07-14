@@ -456,7 +456,7 @@
 
 /* project section */
 
-.Projects {
+.Packages {
     background-color: #161616;
     display: flex;
     flex-direction: column;
@@ -466,7 +466,7 @@
     padding: 10rem 0;
 } 
 
-.Projects h1 {
+.Packages h1 {
     background-color: #ff8177;
     background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
@@ -478,13 +478,13 @@
     font-size: 2.5rem;
 }
 
-.projects_wrapper {
+.Packages_wrapper {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: 1fr;
 }
 
-.projects_card {
+.Packages_card {
     margin: 10px;
     height: 425px;
     width: 300px;
@@ -497,44 +497,44 @@
     transition: 0.3s ease-in;
 }
 
-.projects_card:nth-child(2) {
+.Packages_card:nth-child(2) {
     background: #c31432;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-    .projects_card:nth-child(3) {
+    .Packages_card:nth-child(3) {
         background: #C33764;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.projects_card h2 {
+.Packages_card h2 {
     text-decoration: none;
     text-align: center;
     text-decoration-style: none;
 }
 
-.projects_card p {
+.Packages_card p {
     text-align: center;
     margin-top: 24px;
     font-size: 20px;
     text-decoration: none;
 }
 
-.projects_btn button a {
+.Packages_btn button a {
     text-decoration: none;
     color: white;
     outline: none;
 }
 
-.projects_btn {
+.Packages_btn {
     display: flex;
     justify-content: center;
     margin-top: 16px;
     
 }
 
-.projects_card button {
+.Packages_card button {
     color: #fff;
     padding: 14px 24px;
     border: none;
@@ -545,25 +545,25 @@ background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, F
     text-decoration: none;
 }
 
-.projects_card button:hover {
+.Packages_card button:hover {
     cursor: pointer;
     text-decoration: none;
 }
 
-.projects_card:hover {
+.Packages_card:hover {
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
     text-decoration: none;
 }
 @media screen and (max-width: 1300px) {
-    .projects_wrapper {
+    .Packages_wrapper {
         grid-template-columns: 1fr 1fr;
     } 
 }
 
 @media screen and (max-width:768px) {
-    .projects_wrapper {
+    .Packages_wrapper {
         grid-template-columns: 1fr;
     }
 }
